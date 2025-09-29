@@ -3,7 +3,7 @@ const {By, Key, Builder} = require('selenium-webdriver');
 require('geckodriver');
 
 async function testLocal() {
-    const searchString = 'KEA';
+    const searchString = 'EK - Erhvervsakademi København';
 
     const driver = await new Builder().forBrowser('firefox').build();
 
