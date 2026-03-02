@@ -33,5 +33,5 @@ async function testGoogle() {
     await driver.quit();
 }
 
-testLocal();
-testGoogle();
+await testLocal();
+await testGoogle();
